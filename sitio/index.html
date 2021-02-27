@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head><!aquí se definen los "Metadatos = datos que describwn otros datos">
+        <title> CV Gianfranco Gonzalez</title>
+        <meta charset="utf-8"><! para tener el diccionario en español>
+        <meta name= "description" content="Gianfranco Gonzalez es un Programador de sistemas adminsitrativos con conocimientos en Visual Basic y JavaScript"><!estructura que siguen la mayoría de los metadatos, name y content>
+    </head>
+    <body style="font-family:Helvetica, Arial, sans-serif;"><! al modificar la propiedad font-family en el body, todos los elementos que éste contenga, aplicarán los cambios. El orden de las fuentes es porque puede que no encuentre la primera, entonces sigue con la siguiente. Helvetica sólo funciona en MacOS, Sans-serif es la familia.>
+        <header style="background-color: #3950e9;color:white;text-align:center;padding: 16px;"><! propiedad background-color es para el fondo, y color es para el texto>
+            <img src="CV-pic.jpg" width="200">  
+            <h1 style="text-align: center; font-weight: bold;">CV Gianfranco Gonzalez</h1> <! H1 se recomienda que solo se use una vez por documento. Es la etiqueta principal que debemos usar para darle título al sitio, pensando en cómo será buscado en buscadores.>
+            <! Atributo Style: Se puede aplicar a elementos visuales, se pueden especificar propiedades CSS, aunque no es una buena práctica, es más simple. Cambio valor de la propiedad CSS Display, por defecto es block, lo cambiamos por inline-block y width para ajustar el ancho de cada elemento>           
+            <p style="display: inline-block;width:400px;font-weight: 400;">  Programador de sistemas administrativos</p><! display inline-block es para que 2 divs se muestren uno al lado del otro, en lugar de uno debajo del otro.>
+        </header><!'head y header no son lo mismo. Head va en la cabecera del código, y se puede insertar solo una vez. Header son los encabezados de cada sección y se puede repetir>
+        <div style="background-color: #62f091;text-align: center;padding: 10px;""><!div es de las etiquetas más usadas, no tiene función específica más que agrupar elementos, para que al modificar propiedades en CSS se puede agrupar por divs>
+        Programador Jr. de sistemas administrativos con experiencia en Pymes, desarrollando aplicaciones en VisualBasic y SQL Server.
+        </div>
+        <section>
+            <div style="width: 960px;margin-right: auto;margin-left: auto;">
+                
+                <div>
+                      <h3 style="font-size: 36px;font-weight:700;">Educación</h3>
+                      <div>
+                        <dl><! etiquetas de Listas Ordenadas (las listas ordenadas se refiere a que tiene una etiqueta para el título y otra para el contenido, con un margen por defecto. En las desordenadas sólo es un item, sin descripción)>
+                            <dt style="font-size: 22px;text-transform: uppercase;margin-bottom: 12px;margin-top: 36px;"> Tec. Programador de Sistemas administrativos</dt>
+                            <dd style="margin: 0">2013-2015. IES No. 7 </dd>
+                            <dt> Especialización en VB.net</dt>
+                            <dd style = "margin-top: 20px;">2020. IES No. 7</dd>
+                            <dt> Especialización en Desarrollo Web </dt>
+                        </dl>
+                      </div>
+                  </div>  
+                  <div style = "margin-top: 50px;">
+                    <h3 style="font-size: 36px;font-weight:700;">Experiencia Laboral</h3>
+                    <div>
+                      <dl>
+                          <dt style="font-size: 22px;text-transform: uppercase;margin-bottom: 12px;margin-top: 36px;"> Asesor sistemas</dt>
+                          <dd>2020 - Actualidad</dd>
+                          <dt> Genpro SA</dt>
+                          <dd style = "margin-top: 20px;">2019-2020 </dd>
+                          <dt> Ovcogo SA</dt>
+                      </dl>
+                    </div>
+                </div> 
+                <div style = "margin-top: 50px;">
+                    <h3 style="font-size: 36px;font-weight:700;">Otros conocimientos</h3>
+                    <div>
+                      <ul style="margin-top: 12px;padding: 0px;"><! etiqueta para listas desordenadas, por defecto la etiqueta ul agrega un margen a la izquierda, por lo que para quitarselo hay que aclarar padding 0px.>
+                          <li style="margin-top: 16px;">Excel a nivel profesional (Tablas dinámicas, macros para automatizar procesos, fórmulas y gráficos)</li>
+                          <li style="margin-top: 16px;">Power BI: con conexión directa a SQL Server, consultas personalizadas, actualizaciones automáticas. </li>  
+                        </ul>
+                    </div>
+                </div> 
+                <div style = "margin-top: 50px;">
+                    <h3 style="font-size: 36px;font-weight:700;">Redes de contacto</h3>
+                    <div>
+                      <ul style="margin-top: 12px;padding: 0px;"><! etiqueta para listas desordenadas, por defecto la etiqueta ul agrega un margen a la izquierda, por lo que para quitarselo hay que aclarar padding 0px.>
+                          <li style="margin-top: 16px;">Facebook</li>
+                            <a href="https://facebook.com/gian.soad" target="_blank">Ver perfil</a>
+                            
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </body>
+</html>
+
